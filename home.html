@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tools</title>
+    <!-- Code Snippets -->
+    <link
+      rel="stylesheet"
+      href="//unpkg.com/@highlightjs/cdn-assets@11.6.0/styles/default.min.css"
+    />
+    <script src="//unpkg.com/@highlightjs/cdn-assets@11.6.0/highlight.min.js"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/atom-one-dark.min.css"
+    />
+  </head>
+
+  <body class="home-body">
+    <blockquote>
+      <h1>Dev Tools</h1>
+      <a href="https://github.com/bautipietra" target="_blank"
+        >by Bautista Pietraroia</a
+      >
+    </blockquote>
+
+    <h4>HTML HEAD</h4>
+    <pre>
+      <code class="language-html code">
+        &lt;meta charset=&quot;UTF-8&quot;&gt;
+        &lt;meta name=&quot;keywords&quot; content=&quot;palabras, claves, de, la, pagina&quot;&gt;
+        &lt;meta name=&quot;description&quot; content=&quot;Descripcion de la pagina&quot;&gt;
+        &lt;meta name=&quot;author&quot; content=&quot;Bautista Pietraroia&quot;&gt;
+        &lt;meta name=&quot;copyright&quot; content=&quot;Pietra Dev&quot;&gt;
+        &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+        &lt;title&gt;Pesta&ntilde;a - Titulo&lt;/title&gt;
+        &lt;link rel=&quot;icon&quot; href=&quot;logo.ico&quot;&gt;
+        &lt;!-- CSS --&gt;
+        &lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot;&gt;
+      </code>
+    </pre>
+
+    <h4>CSS REFRESH</h4>
+    <pre>
+      <code class="language-css code">
+        /* Refresh styles */
+
+        :root {
+            --bg-color: #fff;
+        }
+        
+        html {
+            font-size: 62.5%; /* 1rem = 10 px */
+            font-family: 'Roboto Mono', monospace;
+        }
+        
+        body {
+            width: 100%;
+            height: 100%;
+            overflow-x: hidden;
+        }
+        
+        *, *::after, *::before  {
+            box-sizing: border-box;
+        }
+        
+        *:focus:not(:focus-visible) {
+            outline: none;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        /* Responsive */
+        
+        @mixin mq ($res : 800px) {
+            @media screen and (max-width: $res) {
+                @content
+            }
+        }
+        
+        /* Main Styles */
+        
+      </code>
+    </pre>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+      hljs.highlightAll();
+    </script>
+  </body>
+</html>

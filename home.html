@@ -27,29 +27,19 @@
       >
     </blockquote>
 
-    <h4>HTML HEAD</h4>
-    <pre>
-      <code class="language-html code">
-        &lt;meta charset=&quot;UTF-8&quot;&gt;
-        &lt;meta name=&quot;keywords&quot; content=&quot;palabras, claves, de, la, pagina&quot;&gt;
-        &lt;meta name=&quot;description&quot; content=&quot;Descripcion de la pagina&quot;&gt;
-        &lt;meta name=&quot;author&quot; content=&quot;Bautista Pietraroia&quot;&gt;
-        &lt;meta name=&quot;copyright&quot; content=&quot;Pietra Dev&quot;&gt;
-        &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
-        &lt;title&gt;Pesta&ntilde;a - Titulo&lt;/title&gt;
-        &lt;link rel=&quot;icon&quot; href=&quot;logo.ico&quot;&gt;
-        &lt;!-- CSS --&gt;
-        &lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot;&gt;
-      </code>
-    </pre>
-
     <h4>CSS REFRESH</h4>
     <pre>
       <code class="language-css code">
         /* Refresh styles */
 
         :root {
-            --bg-color: #fff;
+              --font-size-sm: clamp(0.8rem, 0.17vw + 0.76rem, 0.89rem);
+              --font-size-base: clamp(1rem, 0.34vw + 0.91rem, 1.19rem);
+              --font-size-md: clamp(1.25rem, 0.61vw + 1.1rem, 1.58rem);
+              --font-size-lg: clamp(1.56rem, 1vw + 1.31rem, 2.11rem);
+              --font-size-xl: clamp(1.95rem, 1.56vw + 1.56rem, 2.81rem);
+              --font-size-xxl: clamp(2.44rem, 2.38vw + 1.85rem, 3.75rem);
+              --font-size-xxxl: clamp(3.05rem, 3.54vw + 2.17rem, 5rem);
         }
         
         html {
